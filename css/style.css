@@ -1,0 +1,209 @@
+body {
+  font-family: Cairo;
+  direction: rtl;
+  background: #f5f7fb;
+}
+
+/* NAVBAR */
+.main-nav {
+  background: linear-gradient(90deg, #0f172a, #2563eb);
+}
+
+/* HERO */
+.hero {
+  background: url("../assets/images/hero.jpg");
+  height: 70vh;
+  background-size: cover;
+}
+.hero-overlay {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Services */
+.service-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Projects */
+.project-detail {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Statistics */
+.stats-section {
+  background: white;
+  padding: 50px;
+  margin-top: 40px;
+}
+.stat-box {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #0f172a;
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+/* Dark Mode */
+.dark {
+  background: black;
+  color: white;
+}
+/* BIG PROJECT CARDS */
+.project-card-big {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.project-card-big img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card-big:hover {
+  transform: translateY(-10px);
+}
+
+/* CONTACT BOX */
+.contact-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ABOUT PAGE */
+.about-page {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ABOUT PAGE DESIGN */
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #1e40af;
+}
+
+.section-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.big-text {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.small-text {
+  font-size: 15px;
+  color: #666;
+}
+
+.about-list li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+/* WHY US BOX */
+.why-box {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* STATS */
+.stats-box {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.stat-item h1 {
+  font-size: 40px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* TEAM CARDS */
+.team-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  margin-bottom: 25px;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+/* PROJECTS PROFESSIONAL CARDS */
+.project-card-pro {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.project-card-pro:hover {
+  transform: translateY(-8px);
+}
+
+.project-card-pro img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-desc {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 10px;
+}
